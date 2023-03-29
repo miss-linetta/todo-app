@@ -1,0 +1,9 @@
+$border-radius: 5px;
+
+button {
+    border-radius: $border-radius;
+    background-color: $dark-blue;
+    color: $white;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+@import '../../styles/global';
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: -webkit-fill-available;
+    height: 30px;
+    border-radius: $border-radius;
+    border: 2px solid $dark-blue;
+    background-color: $grey;
+    padding-left: 5px;
+
+    &:focus {
+       outline: none;  
+    //    border-color: #fca311; 
+    }
+}
+
+.button {
+    padding: 2px 16px;
+    
+}

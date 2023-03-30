@@ -1,0 +1,11 @@
+.container {
+  max-height: 450px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

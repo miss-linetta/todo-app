@@ -1,5 +1,6 @@
 @import './styles/index.scss';
 
+
 .App {
   display: flex;
   justify-content: center;
@@ -12,6 +13,28 @@
   background-color: $grey;
   padding: 40px;
   border-radius: $border-radius;
-  height: 300px;
+  min-height: 50px;
+  max-height: 500px;
+  width: 40vw;
+
+  p {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 32px;
+    font-size: smaller;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 850px) {
+  .container {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    width: 100vw;
+    padding: 20px;
+  }
 }
 

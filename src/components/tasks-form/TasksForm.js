@@ -25,6 +25,7 @@ const TasksForm = ({ addTask }) => {
             setTask(e.target.value);
           }}
           value={task}
+          maxLength={60}
           autoFocus
           required
         />

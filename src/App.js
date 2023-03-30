@@ -18,7 +18,7 @@ function App() {
     <div className={styles["App"]}>
       <div className={styles["container"]}>
         <TasksForm addTask={addTask} />
-        {tasks && <TaskList tasks={tasks} deleteTask={deleteTask} />}
+        {tasks && tasks.length ? <TaskList tasks={tasks} deleteTask={deleteTask} /> : <p>No Tasks...</p>}
       </div>
     </div>
   );
